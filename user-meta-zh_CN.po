@@ -2,23 +2,208 @@ msgid ""
 msgstr ""
 "Project-Id-Version: User Meta Pro v1.1.6rc3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-11 14:49+0600\n"
-"PO-Revision-Date: 2014-06-21 14:50:07+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2012-04-10 16:32+0600\n"
+"PO-Revision-Date: 2014-06-21 14:50:28+0000\n"
+"Last-Translator: Chen Yan <amy_cy@163.com>\n"
 "Language-Team: User Meta Pro <support@user-meta.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
 "X-Generator: CSL v1.x\n"
-"X-Poedit-Language: Italian\n"
-"X-Poedit-Country: ITALY\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: PEOPLE'S REPUBLIC OF CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: ../../\n"
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
+
+#: views/email/emailNotificationPage.php:9
+#: views/pro/email/emailNotificationPage.php:8
+#@ user-meta
+msgid "E-mail Notification"
+msgstr "邮件通知"
+
+#: controllers/pro/umEmailNotificationController.php:116
+#, php-format
+#@ user-meta
+msgid ""
+"To reset your password, please visit the following address: \\r\n"
+"\\r\n"
+" %s"
+msgstr ""
+"重置您的密码，请访问下面的地址: \\r\n"
+"\\r\n"
+" %s"
+
+#: controllers/pro/umEmailNotificationController.php:94
+#: controllers/pro/umEmailNotificationController.php:100
+#, php-format
+#@ user-meta
+msgid "Email verification url: %s"
+msgstr "邮件确认地址: %s"
+
+#: controllers/pro/umEmailNotificationController.php:97
+#: controllers/pro/umEmailNotificationController.php:102
+#, php-format
+#@ user-meta
+msgid "Activation url: %s"
+msgstr ""
+
+#: models/umSupportArray.php:47
+#: models/umSupportArray.php:48
+#: views/exportImport/importExportPage.php:9
+#: views/pro/exportImport/importExportPage.php:9
+#@ user-meta
+msgid "Export & Import"
+msgstr "输出 & 输入"
+
+#: controllers/pro/umExportImportController.php:16
+#@ user-meta
+msgid "You do not have sufficient permissions to access this page."
+msgstr "你们有权限进入该页面。"
+
+#: controllers/pro/umFormWidgetController.php:15
+#@ user-meta
+msgid "User Meta Form"
+msgstr "User Meta 表"
+
+#: controllers/pro/umFormWidgetController.php:16
+#@ user-meta
+msgid "Show user registration, profile or login form as widget"
+msgstr "显示用户注册信息，文件或者登陆信表作为部件"
+
+#: controllers/pro/umFormWidgetController.php:100
+#: controllers/pro/umLoginWidgetController.php:85
+#@ user-meta
+msgid "Guest Title:"
+msgstr "用户登录"
+
+#: controllers/pro/umFormWidgetController.php:109
+#: controllers/pro/umLoginWidgetController.php:94
+#@ user-meta
+msgid "Logged-In User Title:"
+msgstr "欢迎登录"
+
+#: controllers/pro/umFormWidgetController.php:118
+#@ user-meta
+msgid "Action Type:"
+msgstr "操作类型"
+
+#: controllers/pro/umFormWidgetController.php:126
+#@ user-meta
+msgid "Form Name:"
+msgstr "表名"
+
+#: controllers/pro/umLoginWidgetController.php:20
+#@ user-meta
+msgid "User Meta Login"
+msgstr "User Meta登录"
+
+#: controllers/pro/umLoginWidgetController.php:21
+#@ user-meta
+msgid "Login Widget"
+msgstr "登录控制部件"
+
+#: controllers/pro/umLoginWidgetController.php:79
+#: models/umSupportArray.php:676
+#: models/umSupportArray.php:679
+#: views/generateForm.php:188
+#: views/settingsPage.php:18
+#@ user-meta
+msgid "Login"
+msgstr "登录"
+
+#: controllers/pro/umLoginWidgetController.php:103
+#@ user-meta
+msgid "Hide this widget when viewing login page"
+msgstr "访问登录页面时隐藏这个控制部件"
+
+#: controllers/pro/umPreloadsProController.php:155
+#, php-format
+#@ user-meta
+msgid "There is a new version <strong>%1$s</strong> of <strong>%2$s</strong> available. <a href=\"%3$s\">update automatically.</a>"
+msgstr ""
+
+#: controllers/pro/umPreloadsProController.php:208
+#: models/umSupportArray.php:681
+#, php-format
+#@ user-meta
+msgid "<strong>ERROR</strong>: Invalid %s."
+msgstr "<strong>错误</strong>: 无效的 %s."
+
+#: controllers/pro/umPreloadsProController.php:211
+#, php-format
+#@ user-meta
+msgid "<strong>ERROR</strong>: Incorrect Password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
+msgstr "<strong>错误</strong>: 密码错误。 <a href=\"%s\" title=\"密码丢失和寻找\">忘记密码</a>?"
+
+#: controllers/pro/umUserActivationController.php:29
+#: controllers/pro/umUserActivationController.php:34
+#: controllers/pro/umUserActivationController.php:138
+#: controllers/pro/umUserActivationController.php:255
+#@ user-meta
+msgid "Activate"
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:37
+#: controllers/pro/umUserActivationController.php:42
+#: controllers/pro/umUserActivationController.php:138
+#: controllers/pro/umUserActivationController.php:260
+#@ user-meta
+msgid "Deactivate"
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:107
+#@ user-meta
+msgid "Active"
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:108
+#@ user-meta
+msgid "Inactive"
+msgstr ""
+
+#: models/umSupportArray.php:726
+#@ user-meta
+msgid "<strong>ERROR:</strong> your account is not yet activated."
+msgstr "<strong>错误:</strong> 您的账户还未被激活。"
+
+#: controllers/pro/umUserActivationController.php:254
+#, php-format
+#@ user-meta
+msgid "New user %s registered on your site."
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:259
+#, php-format
+#@ user-meta
+msgid "User %s is already activated."
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:266
+#@ user-meta
+msgid "activated"
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:268
+#@ user-meta
+msgid "deactivated"
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:271
+#, php-format
+#@ user-meta
+msgid "%1$s users have been %2$s"
+msgstr ""
+
+#: controllers/pro/umUserActivationController.php:273
+#, php-format
+#@ user-meta
+msgid "User has been %s"
+msgstr ""
 
 #: models/umSupportArray.php:27
 #@ user-meta
@@ -65,12 +250,17 @@ msgstr ""
 #: views/pro/settings/redirectionSettings.php:31
 #@ user-meta
 msgid "Profile"
-msgstr "Profilo"
+msgstr ""
 
 #: controllers/umPreloadsController.php:155
 #, php-format
 #@ user-meta
 msgid "There is a new version of %1$s available. <a href=\"%2$s\">update automatically</a>."
+msgstr ""
+
+#: controllers/umPreloadsController.php:255
+#@ user-meta
+msgid "Security check"
 msgstr ""
 
 #: models/umSupportArray.php:55
@@ -93,169 +283,6 @@ msgstr ""
 msgid "type=\"%s\" is invalid."
 msgstr ""
 
-#: views/email/emailNotificationPage.php:9
-#: views/pro/email/emailNotificationPage.php:8
-#@ user-meta
-msgid "E-mail Notification"
-msgstr ""
-
-#: controllers/pro/umEmailNotificationController.php:94
-#: controllers/pro/umEmailNotificationController.php:100
-#, php-format
-#@ user-meta
-msgid "Email verification url: %s"
-msgstr "Indirizzo di Verifica Email: %s"
-
-#: controllers/pro/umEmailNotificationController.php:97
-#: controllers/pro/umEmailNotificationController.php:102
-#, php-format
-#@ user-meta
-msgid "Activation url: %s"
-msgstr "Indirizzo di Attivazione: %s"
-
-#: models/umSupportArray.php:47
-#: models/umSupportArray.php:48
-#: views/exportImport/importExportPage.php:9
-#: views/pro/exportImport/importExportPage.php:9
-#@ user-meta
-msgid "Export & Import"
-msgstr ""
-
-#: controllers/pro/umExportImportController.php:16
-#@ user-meta
-msgid "You do not have sufficient permissions to access this page."
-msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
-
-#: controllers/pro/umFormWidgetController.php:100
-#: controllers/pro/umLoginWidgetController.php:85
-#@ user-meta
-msgid "Guest Title:"
-msgstr ""
-
-#: controllers/pro/umFormWidgetController.php:109
-#: controllers/pro/umLoginWidgetController.php:94
-#@ user-meta
-msgid "Logged-In User Title:"
-msgstr ""
-
-#: controllers/pro/umFormWidgetController.php:118
-#@ user-meta
-msgid "Action Type:"
-msgstr ""
-
-#: controllers/pro/umFormWidgetController.php:126
-#@ user-meta
-msgid "Form Name:"
-msgstr ""
-
-#: controllers/pro/umLoginWidgetController.php:20
-#@ user-meta
-msgid "User Meta Login"
-msgstr ""
-
-#: controllers/pro/umLoginWidgetController.php:21
-#@ user-meta
-msgid "Login Widget"
-msgstr ""
-
-#: controllers/pro/umLoginWidgetController.php:79
-#: models/umSupportArray.php:676
-#: models/umSupportArray.php:679
-#: views/generateForm.php:188
-#: views/settingsPage.php:18
-#@ user-meta
-msgid "Login"
-msgstr ""
-
-#: controllers/pro/umLoginWidgetController.php:103
-#@ user-meta
-msgid "Hide this widget when viewing login page"
-msgstr ""
-
-#: controllers/pro/umPreloadsProController.php:155
-#, php-format
-#@ user-meta
-msgid "There is a new version <strong>%1$s</strong> of <strong>%2$s</strong> available. <a href=\"%3$s\">update automatically.</a>"
-msgstr ""
-
-#: controllers/pro/umPreloadsProController.php:208
-#: models/umSupportArray.php:681
-#, php-format
-#@ user-meta
-msgid "<strong>ERROR</strong>: Invalid %s."
-msgstr "<strong>ERRORE</strong>: %s non valido."
-
-#: controllers/pro/umPreloadsProController.php:211
-#, php-format
-#@ user-meta
-msgid "<strong>ERROR</strong>: Incorrect Password. <a href=\"%s\" title=\"Password Lost and Found\">Lost your password</a>?"
-msgstr "<strong>ERRORE</strong>: Password incorretta. <a href=\"%s\" title=\"Recupera Password\">Hai dimenticato la tua password</a>?"
-
-#: controllers/pro/umUserActivationController.php:29
-#: controllers/pro/umUserActivationController.php:34
-#: controllers/pro/umUserActivationController.php:138
-#: controllers/pro/umUserActivationController.php:255
-#@ user-meta
-msgid "Activate"
-msgstr ""
-
-#: controllers/pro/umUserActivationController.php:37
-#: controllers/pro/umUserActivationController.php:42
-#: controllers/pro/umUserActivationController.php:138
-#: controllers/pro/umUserActivationController.php:260
-#@ user-meta
-msgid "Deactivate"
-msgstr ""
-
-#: controllers/pro/umUserActivationController.php:107
-#@ user-meta
-msgid "Active"
-msgstr ""
-
-#: controllers/pro/umUserActivationController.php:108
-#@ user-meta
-msgid "Inactive"
-msgstr ""
-
-#: models/umSupportArray.php:726
-#@ user-meta
-msgid "<strong>ERROR:</strong> your account is not yet activated."
-msgstr "<strong>ERRORE:</strong> il tuo account non è ancora stato attivato."
-
-#: controllers/pro/umUserActivationController.php:254
-#, php-format
-#@ user-meta
-msgid "New user %s registered on your site."
-msgstr "Il Nuovo Utente %s si è registrato al sito."
-
-#: controllers/pro/umUserActivationController.php:259
-#, php-format
-#@ user-meta
-msgid "User %s is already activated."
-msgstr "L'utente %s è già stato attivato."
-
-#: controllers/pro/umUserActivationController.php:266
-#@ user-meta
-msgid "activated"
-msgstr "attivato"
-
-#: controllers/pro/umUserActivationController.php:268
-#@ user-meta
-msgid "deactivated"
-msgstr "disattivato"
-
-#: controllers/pro/umUserActivationController.php:271
-#, php-format
-#@ user-meta
-msgid "%1$s users have been %2$s"
-msgstr "%1$s utenti sono stati %2$s"
-
-#: controllers/pro/umUserActivationController.php:273
-#, php-format
-#@ user-meta
-msgid "User has been %s"
-msgstr "L'utente è stato %s"
-
 #: framework/helper/uploader.php:155
 #: framework/models/PluginFrameworkWPSupport.php:306
 #@ user-meta
@@ -263,27 +290,26 @@ msgid "Server error. Upload directory is not writable."
 msgstr ""
 
 #: framework/helper/uploader.php:159
-#, fuzzy
 #@ user-meta
 msgid "No files were uploaded."
-msgstr "Trascina i file qui per caricarli"
+msgstr "没有上传文件。"
 
 #: framework/helper/uploader.php:165
 #@ user-meta
 msgid "File is empty"
-msgstr ""
+msgstr "文件为空。"
 
 #: framework/helper/uploader.php:169
 #@ user-meta
 msgid "File is too large"
-msgstr ""
+msgstr "文件太大。"
 
 #: framework/helper/uploader.php:181
 #: framework/models/PluginFrameworkWPSupport.php:326
-#, fuzzy, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format
+#, php-format
 #@ user-meta
 msgid "File %1$s has an invalid extension, it should be one of %2$s."
-msgstr "%1$s non ha un estensione valida. Solo %2$s sono permesse."
+msgstr "文件%1$s的扩展名无效，它应该是%2$之一。"
 
 #: framework/models/PluginFrameworkArray.php:22
 #: models/umSupportArray.php:228
@@ -291,13 +317,13 @@ msgstr "%1$s non ha un estensione valida. Solo %2$s sono permesse."
 #: views/pro/settings/backendProfile.php:24
 #@ user-meta
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: framework/models/PluginFrameworkArray.php:23
 #: views/pro/settings/backendProfile.php:33
 #@ user-meta
 msgid "E-mail"
-msgstr ""
+msgstr "邮箱"
 
 #: framework/models/PluginFrameworkArray.php:24
 #: framework/phpunit/models/PluginFrameworkArrayTest.php:34
@@ -307,7 +333,7 @@ msgstr ""
 #: views/settings/activationForm.php:55
 #@ user-meta
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: framework/models/PluginFrameworkArray.php:25
 #@ user-meta
@@ -319,7 +345,7 @@ msgstr ""
 #: views/pro/settings/backendProfile.php:34
 #@ user-meta
 msgid "Website"
-msgstr "Sito Web"
+msgstr "网页"
 
 #: framework/models/PluginFrameworkArray.php:27
 #: models/umSupportArray.php:252
@@ -333,39 +359,38 @@ msgstr ""
 #: views/pro/settings/backendProfile.php:27
 #@ user-meta
 msgid "Nickname"
-msgstr ""
+msgstr "昵称"
 
 #: framework/models/PluginFrameworkArray.php:29
 #: models/umSupportArray.php:262
 #: views/pro/settings/backendProfile.php:25
 #@ user-meta
 msgid "First Name"
-msgstr ""
+msgstr "名"
 
 #: framework/models/PluginFrameworkArray.php:30
 #: models/umSupportArray.php:267
 #: views/pro/settings/backendProfile.php:26
 #@ user-meta
 msgid "Last Name"
-msgstr ""
+msgstr "姓"
 
 #: framework/models/PluginFrameworkArray.php:31
-#, fuzzy
 #@ user-meta
 msgid "Description"
-msgstr "Registrazione"
+msgstr "描述"
 
 #: framework/models/PluginFrameworkArray.php:32
 #: models/umSupportArray.php:277
 #@ user-meta
 msgid "Registration Date"
-msgstr "Data di Registrazione"
+msgstr "注册日期"
 
 #: framework/models/PluginFrameworkArray.php:33
 #: models/umSupportArray.php:282
 #@ user-meta
 msgid "Role"
-msgstr ""
+msgstr "角色"
 
 #: framework/models/PluginFrameworkArray.php:34
 #: models/umSupportArray.php:287
@@ -386,16 +411,14 @@ msgid "Yim"
 msgstr ""
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:22
-#, fuzzy
 #@ user-meta
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
-msgstr "<strong>ERRORE</strong>: %s non valido."
+msgstr "<strong>错误</strong>: 请输入用户名或者邮箱。"
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:38
-#, fuzzy
 #@ user-meta
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
-msgstr "<strong>ERRORE</strong>: %s non valido."
+msgstr "<strong>错误</strong>: 无效的用户名和邮箱."
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:53
 #@ user-meta
@@ -403,22 +426,21 @@ msgid "Password reset is not allowed for this user"
 msgstr ""
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:107
-#, fuzzy, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format
+#, php-format
 #@ user-meta
 msgid "Username: %s"
-msgstr "L'utente è stato %s"
+msgstr "用户名：%s"
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:109
-#, fuzzy
 #@ user-meta
 msgid "To reset your password, visit the following address:"
-msgstr "Per reimpostare la tua password, segui il seguente indirizzo:"
+msgstr "重置您的密码，请点击下面的地址"
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:120
-#, fuzzy, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format
+#, php-format
 #@ user-meta
 msgid "[%s] Password Reset"
-msgstr "Resetta la Password"
+msgstr "[%s]重置密码"
 
 #: framework/models/PluginFrameworkBuiltinFunction.php:130
 #@ user-meta
@@ -430,16 +452,10 @@ msgstr ""
 #: framework/models/PluginFrameworkBuiltinFunction.php:161
 #: framework/models/PluginFrameworkBuiltinFunction.php:172
 #: framework/models/PluginFrameworkBuiltinFunction.php:191
-#, fuzzy
 #@ user-meta
 #@ default
 msgid "Invalid key"
-msgstr "Chiave non valida"
-
-#: controllers/umPreloadsController.php:255
-#@ user-meta
-msgid "Security check"
-msgstr ""
+msgstr "无效的key"
 
 #: framework/models/PluginFrameworkWPSupport.php:24
 #: framework/models/PluginFrameworkWPSupport.php:34
@@ -450,23 +466,28 @@ msgstr ""
 #: framework/models/PluginFrameworkWPSupport.php:216
 #@ user-meta
 msgid "Cannot create a user with an empty login name and empty email"
-msgstr ""
+msgstr "请输入有效的用户名和邮箱"
 
 #: framework/models/PluginFrameworkWPSupport.php:296
 #@ user-meta
 msgid "No file upload field found!"
-msgstr ""
+msgstr "没有找到上传的文件！"
 
 #: framework/models/PluginFrameworkWPSupport.php:303
 #@ user-meta
 msgid "File is empty."
-msgstr ""
+msgstr "文件为空"
 
 #: framework/models/PluginFrameworkWPSupport.php:309
 #, php-format
 #@ user-meta
 msgid "File %s is too large."
-msgstr ""
+msgstr "文件%s太大。"
+
+#: framework/models/PluginFrameworkWPSupport.php:413
+#@ user-meta
+msgid "Redirecting..."
+msgstr "重新定向..."
 
 #: framework/views/metaBox.php:13
 #@ user-meta
@@ -482,223 +503,262 @@ msgstr ""
 #: models/umSupportArray.php:589
 #@ user-meta
 msgid "Please Wait..."
-msgstr "Attendere prego..."
+msgstr "请等待..."
 
 #: models/umSupportArray.php:592
 #@ user-meta
 msgid "Upload"
-msgstr ""
+msgstr "上传"
 
 #: models/umSupportArray.php:593
 #@ user-meta
 msgid "Drop files here to upload"
-msgstr "Trascina i file qui per caricarli"
+msgstr "选择上传文件"
 
 #: models/umSupportArray.php:594
 #: views/settings/activationForm.php:68
 #@ user-meta
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: models/umSupportArray.php:595
 #@ user-meta
 msgid "Failed"
-msgstr ""
+msgstr "失败"
 
 #: models/umSupportArray.php:596
 #, php-format
 #@ user-meta
 msgid "%1$s has invalid extension. Only %2$s are allowed."
-msgstr "%1$s non ha un estensione valida. Solo %2$s sono permesse."
+msgstr ""
 
 #: models/umSupportArray.php:597
 #, php-format
 #@ user-meta
 msgid "%1$s is too large, maximum file size is %2$s."
-msgstr "%1$s è troppo grande, la dimensione massima per i file è %2$s."
+msgstr ""
 
 #: models/umSupportArray.php:598
 #, php-format
 #@ user-meta
 msgid "%s is empty, please select files again without it."
-msgstr "%s è vuoto, per favore seleziona di nuovo i files senza quello."
+msgstr ""
 
 #: models/umSupportArray.php:601
 #@ user-meta
 msgid "Too weak"
-msgstr "Troppo Debole"
+msgstr ""
 
 #: models/umSupportArray.php:602
 #@ user-meta
 msgid "Weak password"
-msgstr "Password Debole"
+msgstr ""
 
 #: models/umSupportArray.php:603
 #@ user-meta
 msgid "Normal strength"
-msgstr "Password Media"
+msgstr ""
 
 #: models/umSupportArray.php:604
 #@ user-meta
 msgid "Strong password"
-msgstr "password Sicura"
+msgstr ""
 
 #: models/umSupportArray.php:605
 #@ user-meta
 msgid "Very strong password"
-msgstr "Password Molto Sicura"
+msgstr ""
 
 #: models/umSupportArray.php:608
 #@ user-meta
 msgid "* This field is required"
-msgstr "* Questo campo è richiesto"
+msgstr ""
 
 #: models/umSupportArray.php:609
 #@ user-meta
 msgid "* Please select an option"
-msgstr "* Seleziona un opzione"
+msgstr ""
 
 #: models/umSupportArray.php:610
 #@ user-meta
 msgid "* This checkbox is required"
-msgstr "* Questa scelta è richiesta"
+msgstr ""
 
 #: models/umSupportArray.php:611
 #@ user-meta
 msgid "* Minimum "
-msgstr "* Minimo"
+msgstr ""
 
 #: models/umSupportArray.php:612
 #@ user-meta
 msgid "* Maximum "
-msgstr "* Massimo"
+msgstr ""
 
 #: models/umSupportArray.php:613
 #@ user-meta
 msgid " characters allowed"
-msgstr "caratteri permessi"
+msgstr ""
 
 #: models/umSupportArray.php:614
 #@ user-meta
 msgid "* Minimum value is "
-msgstr "* Il valore minimo è"
+msgstr ""
 
 #: models/umSupportArray.php:615
 #@ user-meta
 msgid "* Maximum value is "
-msgstr "* Il valore massimo è"
+msgstr ""
 
 #: models/umSupportArray.php:616
 #@ user-meta
 msgid "* Date prior to "
-msgstr "* Data precedente a"
+msgstr ""
 
 #: models/umSupportArray.php:617
 #@ user-meta
 msgid "* Date past "
-msgstr "* Data successiva"
+msgstr ""
 
 #: models/umSupportArray.php:618
 #@ user-meta
 msgid " options allowed"
-msgstr "opzioni permese"
+msgstr ""
 
 #: models/umSupportArray.php:619
 #@ user-meta
 msgid "* Please select "
-msgstr "* Per favore seleziona"
+msgstr ""
 
 #: models/umSupportArray.php:620
 #@ user-meta
 msgid " options"
-msgstr "opzioni"
+msgstr ""
 
 #: models/umSupportArray.php:621
 #@ user-meta
 msgid "* Fields do not match"
-msgstr "* I campi non corrispondono"
+msgstr ""
 
 #: models/umSupportArray.php:622
 #@ user-meta
 msgid "* Invalid phone number"
-msgstr "* Numero di telefono non valido"
+msgstr ""
 
 #: models/umSupportArray.php:623
 #@ user-meta
 msgid "* Invalid email address"
-msgstr "* Email non valida"
+msgstr ""
 
 #: models/umSupportArray.php:624
 #@ user-meta
 msgid "* Not a valid integer"
-msgstr "* Non è un numero intero valido"
+msgstr ""
 
 #: models/umSupportArray.php:626
 #@ user-meta
 msgid "* Invalid date, must be in YYYY-MM-DD format"
-msgstr "* Data non corretta, deve avere il seguente formato: YYYY-MM-DD"
+msgstr ""
 
 #: models/umSupportArray.php:627
 #@ user-meta
 msgid "* Invalid time, must be in hh:mm:ss format"
-msgstr "* Orario non valido, deve avere il seguente formato hh:mm:ss"
+msgstr ""
 
 #: models/umSupportArray.php:628
 #@ user-meta
 msgid "* Invalid datetime, must be in YYYY-MM-DD hh:mm:ss format"
-msgstr "* Data e orario non validi, devono avere il seguente formato: YYYY-MM-DD hh:mm:ss"
+msgstr ""
 
 #: models/umSupportArray.php:629
 #@ user-meta
 msgid "* Invalid IP address"
-msgstr "* Indirizzo IP non valido"
+msgstr ""
 
 #: models/umSupportArray.php:630
 #@ user-meta
 msgid "* Invalid URL"
-msgstr "* URL non valido"
+msgstr ""
 
 #: models/umSupportArray.php:632
 #@ user-meta
 msgid "* Numbers only"
-msgstr "* Solo numeri"
+msgstr ""
 
 #: models/umSupportArray.php:633
 #@ user-meta
 msgid "* Letters only"
-msgstr "* Solo lettere"
+msgstr ""
 
 #: models/umSupportArray.php:634
 #@ user-meta
 msgid "* No special characters allowed"
-msgstr "* I caratteri speciali non sono permessi"
+msgstr ""
 
 #: models/umSupportArray.php:635
 #@ user-meta
 msgid "* This user is already taken"
-msgstr "* Questo utente esiste già"
+msgstr ""
+
+#: models/enc/umProSupportModel.php:324
+#, php-format
+#@ user-meta
+msgid "Please enter your license information to <a href=\"%s\">activate User Meta Pro</a>."
+msgstr ""
+
+#: models/pro/umAjaxProModel.php:167
+#: models/pro/umAjaxProModel.php:189
+#@ user-meta
+msgid "Nothing to import!"
+msgstr ""
+
+#: models/pro/umSupportProModel.php:434
+#, php-format
+#@ user-meta
+msgid "Congratulations! Your new site, %s, is almost ready."
+msgstr "恭喜！ 您的网页，%s基本完成。"
+
+#: models/pro/umSupportProModel.php:435
+#@ user-meta
+msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgstr "但是，在您使用之前，<strong>您必须激活它</strong>。"
+
+#: models/pro/umSupportProModel.php:436
+#, php-format
+#@ user-meta
+msgid "Check your inbox at <strong>%s</strong> and click the link given."
+msgstr "请查收您的收件箱 <strong>%s</strong> 并点击里面的链接。"
+
+#: models/pro/umSupportProModel.php:437
+#@ user-meta
+msgid "If you do not activate your site within two days, you will have to sign up again."
+msgstr "如果您没能在两天内激活，您将需要重新注册。"
+
+#: models/pro/umSupportProModel.php:631
+#@ user-meta
+msgid "Disable this notification"
+msgstr ""
 
 #: models/classes/umValidationRulesClass.php:61
 #, php-format
 #@ user-meta
 msgid "%1$s: \"%2$s\" already taken"
-msgstr "%1$s: \"%2$s\" è già stato preso"
+msgstr "%1$s: \"%2$s\" 已经生成"
 
 #: models/umAjaxModel.php:165
 #@ user-meta
 msgid "No data to update"
-msgstr ""
+msgstr "没有数据更新"
 
 #: models/umAjaxModel.php:202
 #@ user-meta
 msgid "User must be logged in to update profile"
-msgstr "Devi essere connesso per poter aggiornare il tuo profilo"
+msgstr "用户需要重新登录"
 
 #: models/umAjaxModel.php:243
 #, php-format
 #@ user-meta
 msgid "%s already taken"
-msgstr "%s già preso"
+msgstr "%s 已经登录"
 
 #: models/umMethods.php:27
 #@ user-meta
@@ -713,7 +773,7 @@ msgstr ""
 #: models/umMethods.php:75
 #@ user-meta
 msgid "User registration is currently not allowed."
-msgstr "La registrazione utenti è al momento disabilitata."
+msgstr "该用户现在不允许注册"
 
 #: models/umSupportArray.php:233
 #: models/umSupportArray.php:365
@@ -721,7 +781,7 @@ msgstr "La registrazione utenti è al momento disabilitata."
 #: views/settings/activationForm.php:46
 #@ user-meta
 msgid "Email"
-msgstr ""
+msgstr "邮箱"
 
 #: models/umSupportArray.php:272
 #: views/pro/settings/backendProfile.php:42
@@ -832,57 +892,57 @@ msgstr ""
 #: models/umSupportArray.php:451
 #@ user-meta
 msgid "Username or Email"
-msgstr ""
+msgstr "用户名或者邮箱"
 
 #: models/umSupportArray.php:727
 #@ user-meta
 msgid "Check your e-mail for the confirmation link."
-msgstr "Controlla la tua email, dovresti aver ricevuto un link di conferma."
+msgstr "点击确认链接确认您的邮箱"
 
 #: models/umSupportArray.php:728
 #@ user-meta
 msgid "Email not found"
-msgstr "Email non trovata"
+msgstr "邮箱无效"
 
 #: models/umSupportArray.php:723
 #@ user-meta
 msgid "User is not member of this site."
-msgstr ""
+msgstr "该用户在该页面不存在。"
 
 #: models/umSupportArray.php:698
 #@ user-meta
 msgid "Your password has been reset."
-msgstr "La tua password è stata resettata."
+msgstr "您的密码已经被重置"
 
 #: models/umSupportArray.php:697
 #@ user-meta
 msgid "The passwords do not match."
-msgstr "Le password non corrispondono."
+msgstr "密码不匹配。"
 
 #: models/umSupportArray.php:703
 #@ user-meta
 msgid "Profile successfully updated."
-msgstr "Profilo correttamente aggiornato."
+msgstr "文件更新成功。"
 
 #: models/umSupportArray.php:711
 #@ user-meta
 msgid "Registration successfully completed."
-msgstr "Registrazione completata con successo."
+msgstr "成功完成注册。"
 
 #: models/umSupportArray.php:707
 #@ user-meta
 msgid "We have sent you a verification link to your email. Please verify your email by clicking the link and wait for admin approval."
-msgstr "Ti abbiamo spedito un link di verifica nella tua email. Per favore verifica la tua email cliccando quel link e attendi per l'approvazione del tuo account da parte di un amministratore."
+msgstr "我们已经发送了一个确认链接到您的邮箱，请点击该链接并等待管理员的许可。"
 
 #: models/umSupportArray.php:706
 #@ user-meta
 msgid "We have sent you a verification link to your email. Please complete your registration by clicking the link."
-msgstr "Ti abbiamo spedito un link di verifica nella tua email. Per completare la tua registrazione devi cliccare quel link."
+msgstr "我们已经发送了一个确认链接到您的邮箱，请点击该链接完成注册。"
 
 #: models/umSupportArray.php:724
 #@ user-meta
 msgid "User already activated"
-msgstr "Utente già attivato"
+msgstr ""
 
 #: models/umSupportHtml.php:10
 #, php-format
@@ -906,46 +966,66 @@ msgstr ""
 #: views/pro/settings/generalProSettings.php:11
 #@ user-meta
 msgid "Read More"
-msgstr "Leggi Tutto"
-
-#: models/enc/umProSupportModel.php:324
-#, php-format
-#@ user-meta
-msgid "Please enter your license information to <a href=\"%s\">activate User Meta Pro</a>."
 msgstr ""
 
-#: models/pro/umAjaxProModel.php:167
-#: models/pro/umAjaxProModel.php:189
+#: views/fieldsEditorPage.php:59
+#: views/formsEditorPage.php:58
+#: views/pro/exportImport/importExportPage.php:38
+#: views/settingsPage.php:124
 #@ user-meta
-msgid "Nothing to import!"
+msgid "Shortcode"
 msgstr ""
 
-#: models/pro/umSupportProModel.php:434
-#, php-format
+#: views/fieldsEditorPage.php:57
+#: views/formsEditorPage.php:57
+#: views/pro/email/emailNotificationPage.php:179
+#: views/pro/exportImport/importExportPage.php:37
+#: views/settingsPage.php:123
 #@ user-meta
-msgid "Congratulations! Your new site, %s, is almost ready."
+msgid "User Meta Pro"
 msgstr ""
 
-#: models/pro/umSupportProModel.php:435
+#: views/pro/email/mailForm.php:7
+#: views/pro/email/singleEmailForm.php:22
 #@ user-meta
-msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgid "From E-mail"
 msgstr ""
 
-#: models/pro/umSupportProModel.php:436
-#, php-format
+#: views/pro/email/mailForm.php:15
+#: views/pro/email/singleEmailForm.php:13
 #@ user-meta
-msgid "Check your inbox at <strong>%s</strong> and click the link given."
+msgid "From Name"
 msgstr ""
 
-#: models/pro/umSupportProModel.php:437
+#: views/pro/email/mailForm.php:23
+#: views/pro/email/singleEmailForm.php:32
+#: views/settings/generalSettings.php:27
 #@ user-meta
-msgid "If you do not activate your site within two days, you will have to sign up again."
+msgid "Plain Text"
 msgstr ""
 
-#: models/pro/umSupportProModel.php:631
+#: views/pro/email/mailForm.php:28
+#: views/pro/email/singleEmailForm.php:37
 #@ user-meta
-msgid "Disable this notification"
-msgstr "Disabilita questa notifica"
+msgid "E-mail Format"
+msgstr ""
+
+#: views/pro/email/mailForm.php:36
+#: views/pro/email/singleEmailForm.php:46
+#@ user-meta
+msgid "Subject"
+msgstr ""
+
+#: views/pro/email/mailForm.php:44
+#: views/pro/email/singleEmailForm.php:54
+#@ user-meta
+msgid "Body"
+msgstr ""
+
+#: views/pro/email/mailForm.php:52
+#@ user-meta
+msgid "Disable Notification"
+msgstr ""
 
 #: views/field.php:80
 #@ user-meta
@@ -1013,7 +1093,7 @@ msgstr ""
 #: views/shortcodePopup.php:82
 #@ user-meta
 msgid "Required"
-msgstr "Richiesto"
+msgstr ""
 
 #: views/field.php:158
 #@ user-meta
@@ -1072,10 +1152,9 @@ msgid "Role Selection Type"
 msgstr ""
 
 #: views/field.php:254
-#, fuzzy
 #@ user-meta
 msgid "Allowed Roles"
-msgstr "Estensioni Permesse"
+msgstr ""
 
 #: views/field.php:268
 #@ user-meta
@@ -1110,12 +1189,12 @@ msgstr ""
 #: views/field.php:319
 #@ user-meta
 msgid "Retype Email"
-msgstr "Reinserisci Email"
+msgstr ""
 
 #: views/field.php:324
 #@ user-meta
 msgid "Retype Password"
-msgstr "Reinserisci la Password"
+msgstr ""
 
 #: views/field.php:329
 #@ user-meta
@@ -1135,7 +1214,7 @@ msgstr ""
 #: views/field.php:364
 #@ user-meta
 msgid "Allowed Extension"
-msgstr "Estensioni Permesse"
+msgstr ""
 
 #: views/field.php:373
 #@ user-meta
@@ -1185,7 +1264,7 @@ msgstr ""
 #: views/field.php:417
 #@ user-meta
 msgid "Max File Size"
-msgstr "Dimensione Massima del File"
+msgstr ""
 
 #: views/field.php:420
 #@ user-meta
@@ -1250,23 +1329,6 @@ msgstr ""
 #: views/fieldsEditorPage.php:55
 #@ user-meta
 msgid "Formatting Fields"
-msgstr ""
-
-#: views/fieldsEditorPage.php:57
-#: views/formsEditorPage.php:57
-#: views/pro/email/emailNotificationPage.php:179
-#: views/pro/exportImport/importExportPage.php:37
-#: views/settingsPage.php:123
-#@ user-meta
-msgid "User Meta Pro"
-msgstr ""
-
-#: views/fieldsEditorPage.php:59
-#: views/formsEditorPage.php:58
-#: views/pro/exportImport/importExportPage.php:38
-#: views/settingsPage.php:124
-#@ user-meta
-msgid "Shortcode"
 msgstr ""
 
 #: views/form.php:11
@@ -1338,121 +1400,32 @@ msgstr ""
 #: views/generateField.php:153
 #: views/generateField.php:178
 #: views/generateField.php:180
-#, fuzzy, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format, php-format
+#, php-format
 #@ user-meta
 msgid "Retype %s"
-msgstr "Reinserisci "
+msgstr "确认 %s"
 
 #: views/generateForm.php:23
 #@ user-meta
 msgid "Fields were saved incorrectly."
-msgstr ""
+msgstr "文件未被正确保存。"
 
 #: views/generateForm.php:150
 #: views/pro/generateProField.php:149
 #@ user-meta
 msgid "Previous"
-msgstr "&laquo; Indietro"
+msgstr "下一页"
 
 #: views/generateForm.php:184
 #: views/settings/activationForm.php:77
 #@ user-meta
 msgid "Update"
-msgstr "Aggiorna"
+msgstr "更新"
 
 #: views/generateForm.php:186
 #@ user-meta
 msgid "Register"
-msgstr "Registrati"
-
-#: views/settingsPage.php:17
-#@ user-meta
-msgid "General"
-msgstr ""
-
-#: models/umSupportArray.php:705
-#: views/settingsPage.php:19
-#@ user-meta
-msgid "Registration"
-msgstr "Registrazione"
-
-#: views/settingsPage.php:20
-#@ user-meta
-msgid "Redirection"
-msgstr ""
-
-#: views/settingsPage.php:21
-#@ user-meta
-msgid "Backend Profile"
-msgstr ""
-
-#: views/pro/email/mailForm.php:7
-#: views/pro/email/singleEmailForm.php:22
-#@ user-meta
-msgid "From E-mail"
-msgstr ""
-
-#: views/pro/email/mailForm.php:15
-#: views/pro/email/singleEmailForm.php:13
-#@ user-meta
-msgid "From Name"
-msgstr ""
-
-#: views/pro/email/mailForm.php:23
-#: views/pro/email/singleEmailForm.php:32
-#: views/settings/generalSettings.php:27
-#@ user-meta
-msgid "Plain Text"
-msgstr ""
-
-#: views/pro/email/mailForm.php:28
-#: views/pro/email/singleEmailForm.php:37
-#@ user-meta
-msgid "E-mail Format"
-msgstr ""
-
-#: views/pro/email/mailForm.php:36
-#: views/pro/email/singleEmailForm.php:46
-#@ user-meta
-msgid "Subject"
-msgstr ""
-
-#: views/pro/email/mailForm.php:44
-#: views/pro/email/singleEmailForm.php:54
-#@ user-meta
-msgid "Body"
-msgstr ""
-
-#: views/pro/email/mailForm.php:52
-#@ user-meta
-msgid "Disable Notification"
-msgstr ""
-
-#: views/pro/generateProField.php:33
-#, fuzzy
-#@ user-meta
-msgid "Site registration has been disabled."
-msgstr "La registrazione utenti è al momento disabilitata."
-
-#: views/pro/generateProField.php:42
-#@ user-meta
-msgid "Site Name"
-msgstr ""
-
-#: views/pro/generateProField.php:42
-#@ user-meta
-msgid "Site Domain"
-msgstr ""
-
-#: views/pro/generateProField.php:49
-#@ user-meta
-msgid "Site Title "
-msgstr ""
-
-#: views/pro/generateProField.php:157
-#@ user-meta
-msgid "Next"
-msgstr "Avanti &raquo;"
+msgstr "注册"
 
 #: views/pro/email/emailNotificationPage.php:21
 #@ user-meta
@@ -1467,7 +1440,7 @@ msgstr ""
 #: views/pro/email/emailNotificationPage.php:119
 #@ user-meta
 msgid "User Notification"
-msgstr ""
+msgstr "用户通知"
 
 #: views/pro/email/emailNotificationPage.php:24
 #: views/pro/email/emailNotificationPage.php:32
@@ -1602,10 +1575,9 @@ msgid "Order"
 msgstr ""
 
 #: views/pro/exportImport/exportForm.php:106
-#, fuzzy
 #@ user-meta
 msgid "Save Only"
-msgstr "Salva"
+msgstr ""
 
 #: views/pro/exportImport/exportForm.php:114
 #@ user-meta
@@ -1645,10 +1617,9 @@ msgid "Forms"
 msgstr ""
 
 #: views/pro/exportImport/exportImportUm.php:23
-#, fuzzy
 #@ user-meta
 msgid "Email Notifications"
-msgstr "Indirizzo di Verifica Email: %s"
+msgstr ""
 
 #: views/pro/exportImport/exportImportUm.php:24
 #@ user-meta
@@ -1805,10 +1776,9 @@ msgid "Do not import any forms"
 msgstr ""
 
 #: views/pro/exportImport/importUmStep2.php:53
-#, fuzzy
 #@ user-meta
 msgid "Import Email Notifications"
-msgstr "Indirizzo di Verifica Email: %s"
+msgstr ""
 
 #: views/pro/exportImport/importUmStep2.php:59
 #@ user-meta
@@ -1855,42 +1825,67 @@ msgstr ""
 msgid "Do not import any settings"
 msgstr ""
 
+#: views/pro/generateProField.php:33
+#@ user-meta
+msgid "Site registration has been disabled."
+msgstr "网页注册已经失效。"
+
+#: views/pro/generateProField.php:42
+#@ user-meta
+msgid "Site Name"
+msgstr "网页名称"
+
+#: views/pro/generateProField.php:42
+#@ user-meta
+msgid "Site Domain"
+msgstr "网页Domain"
+
+#: views/pro/generateProField.php:49
+#@ user-meta
+msgid "Site Title "
+msgstr "网页名称"
+
+#: views/pro/generateProField.php:157
+#@ user-meta
+msgid "Next"
+msgstr "下一页"
+
 #: models/umSupportArray.php:686
 #@ user-meta
 msgid "Lost your password?"
-msgstr "Hai dimenticato la password?"
+msgstr "密码丢失？"
 
 #: models/umSupportArray.php:688
 #@ user-meta
 msgid "Username or E-mail"
-msgstr "Nome Utente o Email"
+msgstr "用户名或者邮箱"
 
 #: models/umSupportArray.php:689
 #@ user-meta
 msgid "Get New Password"
-msgstr "Ottieni una Nuova Password"
+msgstr "获得新密码"
 
 #: models/umSupportArray.php:691
 #: models/umSupportArray.php:692
 #: models/umSupportArray.php:696
 #@ user-meta
 msgid "Reset Password"
-msgstr "Resetta la Password"
+msgstr "重置密码"
 
 #: models/umSupportArray.php:693
 #@ user-meta
 msgid "Enter your new password below."
-msgstr "Entra la tua password qua sotto."
+msgstr "请在下面输入您的新密码。"
 
 #: models/umSupportArray.php:694
 #@ user-meta
 msgid "New password"
-msgstr "Nuova Password"
+msgstr "新密码"
 
 #: models/umSupportArray.php:695
 #@ user-meta
 msgid "Confirm new password"
-msgstr "Conferma la nuova password"
+msgstr "确认新密码"
 
 #: views/pro/settings/backendProfile.php:15
 #@ user-meta
@@ -2006,7 +2001,7 @@ msgstr ""
 #: views/pro/settings/redirectionSettings.php:33
 #@ user-meta
 msgid "Login Page"
-msgstr "Pagina di Login"
+msgstr ""
 
 #: views/pro/settings/loginSettings.php:47
 #, php-format
@@ -2065,9 +2060,19 @@ msgstr ""
 msgid "Set redirection on login, logout and registration"
 msgstr ""
 
+#: views/pro/settings/redirectionSettings.php:26
+#@ user-meta
+msgid "No Redirection"
+msgstr ""
+
 #: views/pro/settings/redirectionSettings.php:27
 #@ user-meta
 msgid "Default (<em>Use default redirection</em>)"
+msgstr ""
+
+#: views/pro/settings/redirectionSettings.php:28
+#@ user-meta
+msgid "Same URL (<em>Same url, that was submitted</em>)"
 msgstr ""
 
 #: views/pro/settings/redirectionSettings.php:30
@@ -2078,7 +2083,7 @@ msgstr ""
 #: views/pro/settings/redirectionSettings.php:32
 #@ user-meta
 msgid "Dashboard"
-msgstr "Bacheca"
+msgstr ""
 
 #: views/pro/settings/redirectionSettings.php:34
 #@ user-meta
@@ -2158,10 +2163,9 @@ msgid "Auto login after registration"
 msgstr ""
 
 #: views/pro/settings/registrationSettings.php:81
-#, fuzzy
 #@ user-meta
 msgid "Multisite Registration"
-msgstr "Registrazione"
+msgstr ""
 
 #: views/settings/activationForm.php:8
 #, php-format
@@ -2228,38 +2232,25 @@ msgstr ""
 msgid "Email Format:"
 msgstr ""
 
-#: controllers/pro/umEmailNotificationController.php:116
-#, php-format
+#: views/settingsPage.php:17
 #@ user-meta
-msgid ""
-"To reset your password, please visit the following address: \\r\n"
-"\\r\n"
-" %s"
+msgid "General"
 msgstr ""
 
-#: controllers/pro/umFormWidgetController.php:15
+#: models/umSupportArray.php:705
+#: views/settingsPage.php:19
 #@ user-meta
-msgid "User Meta Form"
+msgid "Registration"
 msgstr ""
 
-#: controllers/pro/umFormWidgetController.php:16
+#: views/settingsPage.php:20
 #@ user-meta
-msgid "Show user registration, profile or login form as widget"
+msgid "Redirection"
 msgstr ""
 
-#: framework/models/PluginFrameworkWPSupport.php:413
+#: views/settingsPage.php:21
 #@ user-meta
-msgid "Redirecting..."
-msgstr ""
-
-#: views/pro/settings/redirectionSettings.php:26
-#@ user-meta
-msgid "No Redirection"
-msgstr ""
-
-#: views/pro/settings/redirectionSettings.php:28
-#@ user-meta
-msgid "Same URL (<em>Same url, that was submitted</em>)"
+msgid "Backend Profile"
 msgstr ""
 
 #: controllers/pro/umUserActivationController.php:109
@@ -3497,23 +3488,18 @@ msgstr ""
 #: models/umSupportArray.php:725
 #@ user-meta
 msgid "<strong>ERROR:</strong> your account is inactive"
-msgstr ""
+msgstr "<strong>错误:</strong> 你账户未被激活"
 
 #: models/umSupportArray.php:710
 #, php-format
 #@ user-meta
 msgid "Your email is successfully verified and the account has been activated. <a href=\"%s\">Login now</a>"
-msgstr ""
+msgstr "您的邮箱成功被确认并且账户已被激活。<a href=\"%s\">马上登录</a>"
 
 #: models/umSupportArray.php:708
 #@ user-meta
 msgid "Your email is successfully verified. Please wait for admin approval."
-msgstr ""
-
-#: models/umSupportArray.php:685
-#@ user-meta
-msgid "Lost Password"
-msgstr ""
+msgstr "您的邮箱已经被确认，请等待管理员的许可。"
 
 #: views/field.php:231
 #@ user-meta
@@ -3642,7 +3628,7 @@ msgstr ""
 #: models/umMethods.php:59
 #@ user-meta
 msgid "You do not have permission to access user profile."
-msgstr ""
+msgstr "您没有权限访问用户文件。"
 
 #: controllers/pro/umFormWidgetController.php:134
 #@ user-meta
@@ -3659,13 +3645,13 @@ msgstr ""
 #: models/umMethods.php:83
 #@ user-meta
 msgid "No user found!."
-msgstr ""
+msgstr "没有找到该用户！"
 
 #: models/umSupportArray.php:701
 #: models/umSupportArray.php:702
 #@ user-meta
 msgid "Please login to access your profile."
-msgstr ""
+msgstr "请登录访问您的文件"
 
 #: models/umSupportModel.php:47
 #, php-format
@@ -3677,24 +3663,24 @@ msgstr ""
 #, php-format
 #@ user-meta
 msgid "%s is required"
-msgstr ""
+msgstr "需要%s"
 
 #: models/umSupportArray.php:716
 #@ user-meta
 msgid "Invalid email address"
-msgstr ""
+msgstr "无效的邮箱地址"
 
 #: models/classes/umValidationRulesClass.php:64
 #: models/umSupportArray.php:714
 #, php-format
 #@ user-meta
 msgid "Invalid %s"
-msgstr ""
+msgstr "无效的%s"
 
 #: models/umSupportArray.php:631
 #@ user-meta
 msgid "* Invalid field"
-msgstr ""
+msgstr "* 无效"
 
 #: views/field.php:453
 #@ user-meta
@@ -3714,7 +3700,7 @@ msgstr ""
 #: views/generateField.php:458
 #@ user-meta
 msgid "description"
-msgstr ""
+msgstr "描述"
 
 #: models/pro/umSupportProModel.php:623
 #@ user-meta
@@ -3729,6 +3715,82 @@ msgstr ""
 #: views/settingsPage.php:33
 #@ user-meta
 msgid "Text"
+msgstr ""
+
+#: controllers/pro/umPreloadsProController.php:221
+#: controllers/pro/umPreloadsProController.php:224
+#, php-format
+#@ user-meta
+msgid "Please set %s!"
+msgstr ""
+
+#: controllers/pro/umPreloadsProController.php:221
+#: views/pro/settings/loginSettings.php:112
+#@ user-meta
+msgid "Reset Password Page"
+msgstr ""
+
+#: controllers/pro/umPreloadsProController.php:224
+#: views/pro/settings/miscSettings.php:19
+#: views/pro/settings/registrationSettings.php:56
+#@ user-meta
+msgid "Email verification page"
+msgstr ""
+
+#: models/umSupportArray.php:718
+#@ user-meta
+msgid "Please provide valid current password"
+msgstr "请提供当前有效地密码"
+
+#: models/umSupportArray.php:719
+#, php-format
+#@ user-meta
+msgid "Current %s is required"
+msgstr "需要当前的 %s"
+
+#: models/umSupportArray.php:717
+#, php-format
+#@ user-meta
+msgid "%s does not match"
+msgstr "%s 不匹配"
+
+#: views/generateField.php:186
+#: views/generateField.php:190
+#, php-format
+#@ user-meta
+msgid "Current %s"
+msgstr "当前 %s"
+
+#: views/generateField.php:187
+#: views/generateField.php:193
+#, php-format
+#@ user-meta
+msgid "New %s"
+msgstr "新 %s"
+
+#: views/pro/settings/miscSettings.php:6
+#@ user-meta
+msgid "Reset password page"
+msgstr ""
+
+#: views/pro/settings/miscSettings.php:14
+#@ user-meta
+msgid "This is the page a user will be redirected to when they want to reset their password."
+msgstr ""
+
+#: views/pro/settings/miscSettings.php:27
+#@ user-meta
+msgid "This is the page a user will be redirected to when they want to verify their email address (if needed)."
+msgstr ""
+
+#: views/pro/settings/registrationSettings.php:75
+#@ user-meta
+msgid "This is the page a user will be redirected to when they want to verify their email address."
+msgstr ""
+
+#: views/settings/activationForm.php:91
+#@ user-meta
+msgid "This will withdraw license from all sites under the network. Are you sure you want to withdraw pro license from all sites?"
 msgstr ""
 
 #: controllers/pro/umExportImportController.php:115
@@ -3773,26 +3835,6 @@ msgstr ""
 msgid "For showing role based on user profile"
 msgstr ""
 
-#: controllers/pro/umPreloadsProController.php:221
-#: controllers/pro/umPreloadsProController.php:224
-#, php-format
-#@ user-meta
-msgid "Please set %s!"
-msgstr ""
-
-#: controllers/pro/umPreloadsProController.php:221
-#: views/pro/settings/loginSettings.php:112
-#@ user-meta
-msgid "Reset Password Page"
-msgstr ""
-
-#: controllers/pro/umPreloadsProController.php:224
-#: views/pro/settings/miscSettings.php:19
-#: views/pro/settings/registrationSettings.php:56
-#@ user-meta
-msgid "Email verification page"
-msgstr ""
-
 #: controllers/umFieldsController.php:56
 #@ user-meta
 msgid "Fields successfully saved."
@@ -3833,7 +3875,7 @@ msgstr ""
 #: framework/models/PluginFrameworkBuiltinFunction.php:108
 #@ user-meta
 msgid "If you did not authorize this then please ignore this email and nothing will happen."
-msgstr ""
+msgstr "如果你没有被授权，请忽略该邮件。"
 
 #: framework/models/PluginFrameworkWPSupport.php:81
 #@ user-meta
@@ -3861,12 +3903,12 @@ msgstr ""
 #: models/pro/umAjaxProModel.php:152
 #@ user-meta
 msgid "Something went wrong. File has not been uploaded"
-msgstr ""
+msgstr "出现某种错误，文件上传失败"
 
 #: models/pro/umSupportProModel.php:94
 #@ user-meta
 msgid "Password reset is currently not allowed."
-msgstr ""
+msgstr "当前不允许密码重置"
 
 #: models/umAjaxModel.php:22
 #@ user-meta
@@ -3887,53 +3929,41 @@ msgstr ""
 #, php-format
 #@ user-meta
 msgid "You have already registered. See your <a href=\"%s\">profile</a>"
-msgstr ""
+msgstr "您已经注册，请看您的<a href=\"%s\">文件</a>"
 
 #: models/umSupportArray.php:678
 #@ user-meta
 msgid "Remember me"
-msgstr ""
+msgstr "记住我"
 
 #: models/umSupportArray.php:680
 #@ user-meta
 msgid "Both username and email are required"
-msgstr ""
+msgstr "用户名和邮箱都需要"
 
 #: models/umSupportArray.php:682
 #@ user-meta
 msgid "Login successfuly"
-msgstr ""
+msgstr "登录成功"
+
+#: models/umSupportArray.php:685
+#@ user-meta
+msgid "Lost Password"
+msgstr "丢失密码"
 
 #: models/umSupportArray.php:687
 #@ user-meta
 msgid "Please enter your username or email address. You will receive a link to reset your password via email."
-msgstr ""
+msgstr "请输入您的用户名和邮箱地址。您将收到一封链接邮件完成您的密码重置。"
 
 #: models/umSupportArray.php:709
 #@ user-meta
 msgid "Please wait until an admin approves your account."
-msgstr ""
+msgstr "请等待管理员许可您的账户。"
 
 #: models/umSupportArray.php:713
 #@ user-meta
 msgid "Validation"
-msgstr ""
-
-#: models/umSupportArray.php:717
-#, php-format
-#@ user-meta
-msgid "%s does not match"
-msgstr ""
-
-#: models/umSupportArray.php:718
-#@ user-meta
-msgid "Please provide valid current password"
-msgstr ""
-
-#: models/umSupportArray.php:719
-#, php-format
-#@ user-meta
-msgid "Current %s is required"
 msgstr ""
 
 #: models/umSupportArray.php:722
@@ -4060,20 +4090,6 @@ msgstr ""
 msgid "Drag fields from right block to left block to add them to your form."
 msgstr ""
 
-#: views/generateField.php:186
-#: views/generateField.php:190
-#, php-format
-#@ user-meta
-msgid "Current %s"
-msgstr ""
-
-#: views/generateField.php:187
-#: views/generateField.php:193
-#, php-format
-#@ user-meta
-msgid "New %s"
-msgstr ""
-
 #: views/generateForm.php:17
 #@ user-meta
 msgid "Form is not found."
@@ -4172,21 +4188,6 @@ msgstr ""
 msgid "This is the page a user will be redirected to when they want to retrieve/reset their password."
 msgstr ""
 
-#: views/pro/settings/miscSettings.php:6
-#@ user-meta
-msgid "Reset password page"
-msgstr ""
-
-#: views/pro/settings/miscSettings.php:14
-#@ user-meta
-msgid "This is the page a user will be redirected to when they want to reset their password."
-msgstr ""
-
-#: views/pro/settings/miscSettings.php:27
-#@ user-meta
-msgid "This is the page a user will be redirected to when they want to verify their email address (if needed)."
-msgstr ""
-
 #: views/pro/settings/redirectionSettings.php:29
 #@ user-meta
 msgid "Referer (<em>Send the user back to the page where they come from</em>)"
@@ -4202,11 +4203,6 @@ msgstr ""
 msgid "Email verification will not work until a page is selected here!"
 msgstr ""
 
-#: views/pro/settings/registrationSettings.php:75
-#@ user-meta
-msgid "This is the page a user will be redirected to when they want to verify their email address."
-msgstr ""
-
 #: views/pro/settings/registrationSettings.php:86
 #@ user-meta
 msgid "Allow user registration if user already exists in any of the other sites in the network"
@@ -4217,19 +4213,44 @@ msgstr ""
 msgid "Click to upgrade to Pro!"
 msgstr ""
 
-#: views/settings/activationForm.php:91
+#: models/umSupportArray.php:768
 #@ user-meta
-msgid "This will withdraw license from all sites under the network. Are you sure you want to withdraw pro license from all sites?"
-msgstr ""
-
-#: models/umSupportArray.php:350
-#@ user-meta
-msgid "Multi Select"
+msgid "Reset password"
 msgstr ""
 
 #: models/umSupportArray.php:390
 #@ user-meta
 msgid "URL"
+msgstr ""
+
+#: models/umSupportArray.php:730
+#@ user-meta
+msgid "Sorry, that key does not appear to be valid."
+msgstr "对不起，key没有有效显示"
+
+#: models/umSupportArray.php:731
+#@ user-meta
+msgid "Sorry, that key has expired. Please try again."
+msgstr "对比起，key失效，请重试。"
+
+#: views/pro/email/emailNotificationPage.php:106
+#@ user-meta
+msgid "This e-mail will be sent to admin when user reset their password."
+msgstr ""
+
+#: views/pro/email/emailNotificationPage.php:110
+#@ user-meta
+msgid "Reset Password E-mail"
+msgstr ""
+
+#: views/pro/settings/registrationSettings.php:30
+#@ user-meta
+msgid "User registration page"
+msgstr ""
+
+#: models/umSupportArray.php:350
+#@ user-meta
+msgid "Multi Select"
 msgstr ""
 
 #: models/umSupportArray.php:625
@@ -4243,34 +4264,9 @@ msgstr ""
 msgid "Don't have an account? <a href=\"%s\">Sign up</a>"
 msgstr ""
 
-#: models/umSupportArray.php:730
-#@ user-meta
-msgid "Sorry, that key does not appear to be valid."
-msgstr ""
-
-#: models/umSupportArray.php:731
-#@ user-meta
-msgid "Sorry, that key has expired. Please try again."
-msgstr ""
-
-#: models/umSupportArray.php:768
-#@ user-meta
-msgid "Reset password"
-msgstr ""
-
 #: views/field.php:224
 #@ default
 msgid "Allow integer only"
-msgstr ""
-
-#: views/pro/email/emailNotificationPage.php:106
-#@ user-meta
-msgid "This e-mail will be sent to admin when user reset their password."
-msgstr ""
-
-#: views/pro/email/emailNotificationPage.php:110
-#@ user-meta
-msgid "Reset Password E-mail"
 msgstr ""
 
 #: views/pro/settings/loginSettings.php:44
@@ -4282,10 +4278,5 @@ msgstr ""
 #: views/pro/settings/loginSettings.php:97
 #@ user-meta
 msgid "Hide registration link"
-msgstr ""
-
-#: views/pro/settings/registrationSettings.php:30
-#@ user-meta
-msgid "User registration page"
 msgstr ""
 
